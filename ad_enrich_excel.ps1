@@ -29,7 +29,7 @@ function Parse-Login {
     if ($login -like '*\*') {
         $parts = $login -split '\\'
         $domain = $parts[0] # "domain_name"
-        $username = $parts[1] # "E911833"
+        $username = $parts[1] # "E420699"
     }
     else {
         $domain = $null
