@@ -43,3 +43,16 @@ function Get-AllADUsersFromGroup {
   return $users
 }
 
+function Print-AllADUsers {
+  param (
+    [array]$Users
+  )
+
+  foreach ($user in $users) {
+    Write-Host "$($user.DisplayName) | $($user.SamAccountName) | $($user.Title) | $($user.EmailAddress) | $($user.Enabled)
+  }
+}
+
+function Export-UsersToFile {
+
+}
