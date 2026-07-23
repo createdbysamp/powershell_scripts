@@ -1,3 +1,4 @@
+# script to process through active directory and load data into excel
 # install if not already
 #Install-Module ImportExcel -Scope CurrentUser -Force
 
